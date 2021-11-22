@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Karl-afk/signup-form-validation](https://github.com/Karl-afk/signup-form-validation)
+- Live Site URL: [https://karl-afk.github.io/intro-component-with-signup-form-master/](https://karl-afk.github.io/intro-component-with-signup-form-master/)
 
 ## My process
 
