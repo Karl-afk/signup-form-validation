@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/main.min.css"
+      media="print"
+      onload="this.media='all'; this.onload=null;"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid">
+        <h1>Learn to code by watching others</h1>
+
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="grid">
+        <div class="header-card">
+          <p>
+            <span class="bold">Try it free 7 days</span> then $20/mo. thereafter
+          </p>
+        </div>
+        <div class="card">
+          <form class="register-form" id="form">
+            
+            <input
+              type="text"
+              name="first-name"
+              id="firstName"
+              placeholder="First Name"
+              autocomplete="given-name"
+            />
+            <div class="error-container">
+              <img class="failure-icon" src="./images/icon-error.svg" alt="error-icon">
+              <div class="errorMsg"></div>
+            </div>
+            <input
+              type="text"
+              name="last-name"
+              id="lastName"
+              placeholder="Last Name"
+              autocomplete="family-name"
+            />
+            <div class="error-container">
+              <img class="failure-icon" src="./images/icon-error.svg" alt="error-icon">
+              <div class="errorMsg"></div>
+            </div>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              autocomplete="email"
+            />
+            <div class="error-container">
+              <img class="failure-icon" src="./images/icon-error.svg" alt="error-icon">
+              <div class="errorMsg"></div>
+            </div>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              autocomplete="current-password"
+            />
+            <div class="error-container">
+            <img class="failure-icon" src="./images/icon-error.svg" alt="error-icon">
+            <div class="errorMsg"></div>
+            </div>
+            <input type="submit" value="Claim your free trial" />
+          </form>
+
+          <p class="terms-text">
+            By clicking the button, you are agreeing to our
+            <a href="#" class="terms-link">Terms and Services</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://karlweinmueller.de">Karl Weinmüller</a>.
+      </p>
+    </footer>
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>
